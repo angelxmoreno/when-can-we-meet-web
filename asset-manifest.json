@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/when-can-we-meet-web/static/css/main.e35086e1.css",
-    "main.js": "/when-can-we-meet-web/static/js/main.cf9d3f5f.js",
+    "main.js": "/when-can-we-meet-web/static/js/main.de410299.js",
     "static/js/787.f6e4a3c6.chunk.js": "/when-can-we-meet-web/static/js/787.f6e4a3c6.chunk.js",
     "index.html": "/when-can-we-meet-web/index.html",
     "main.e35086e1.css.map": "/when-can-we-meet-web/static/css/main.e35086e1.css.map",
-    "main.cf9d3f5f.js.map": "/when-can-we-meet-web/static/js/main.cf9d3f5f.js.map",
+    "main.de410299.js.map": "/when-can-we-meet-web/static/js/main.de410299.js.map",
     "787.f6e4a3c6.chunk.js.map": "/when-can-we-meet-web/static/js/787.f6e4a3c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e35086e1.css",
-    "static/js/main.cf9d3f5f.js"
+    "static/js/main.de410299.js"
   ]
 }
