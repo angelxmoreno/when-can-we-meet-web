@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/when-can-we-meet-web/static/css/main.e35086e1.css",
-    "main.js": "/when-can-we-meet-web/static/js/main.de410299.js",
-    "static/js/787.f6e4a3c6.chunk.js": "/when-can-we-meet-web/static/js/787.f6e4a3c6.chunk.js",
-    "index.html": "/when-can-we-meet-web/index.html",
-    "main.e35086e1.css.map": "/when-can-we-meet-web/static/css/main.e35086e1.css.map",
-    "main.de410299.js.map": "/when-can-we-meet-web/static/js/main.de410299.js.map",
-    "787.f6e4a3c6.chunk.js.map": "/when-can-we-meet-web/static/js/787.f6e4a3c6.chunk.js.map"
+    "main.css": "https://angelxmoreno.github.io/when-can-we-meet-web/static/css/main.e35086e1.css",
+    "main.js": "https://angelxmoreno.github.io/when-can-we-meet-web/static/js/main.15dc84cb.js",
+    "static/js/787.f6e4a3c6.chunk.js": "https://angelxmoreno.github.io/when-can-we-meet-web/static/js/787.f6e4a3c6.chunk.js",
+    "index.html": "https://angelxmoreno.github.io/when-can-we-meet-web/index.html",
+    "main.e35086e1.css.map": "https://angelxmoreno.github.io/when-can-we-meet-web/static/css/main.e35086e1.css.map",
+    "main.15dc84cb.js.map": "https://angelxmoreno.github.io/when-can-we-meet-web/static/js/main.15dc84cb.js.map",
+    "787.f6e4a3c6.chunk.js.map": "https://angelxmoreno.github.io/when-can-we-meet-web/static/js/787.f6e4a3c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e35086e1.css",
-    "static/js/main.de410299.js"
+    "static/js/main.15dc84cb.js"
   ]
 }
