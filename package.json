@@ -2,6 +2,7 @@
   "name": "when-can-we-meet-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://when-can-we-meet.github.io",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@craco/craco": "^7.1.0",
@@ -20,6 +21,7 @@
     "bootstrap": "^5.3.2",
     "eslint": "^8.55.0",
     "eslint-config-universe": "^12.0.0",
+    "gh-pages": "^6.1.0",
     "prettier": "^3.1.0",
     "pullstate": "^1.25.0",
     "react": "^18.2.0",
@@ -41,6 +43,8 @@
     "test": "craco test",
     "lint": "eslint . --cache",
     "lint:fix": "eslint . --cache --fix",
+    "predeploy": "bun run build",
+    "deploy": "gh-pages -b main -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
