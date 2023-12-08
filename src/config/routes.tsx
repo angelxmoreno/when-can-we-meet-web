@@ -3,7 +3,7 @@ import RootLayout from '@app/components/layout/RootLayout';
 import HomePage from '@app/pages/HomePage';
 import LogInPage from '@app/pages/LogInPage';
 import RegisterPage from '@app/pages/RegisterPage';
-import { createHashRouter, RouteObject} from 'react-router-dom';
+import { createBrowserRouter, RouteObject } from 'react-router-dom';
 
 const routes: RouteObject[] = [
     {
@@ -38,4 +38,9 @@ const routes: RouteObject[] = [
         ],
     },
 ];
-export const router = createHashRouter(routes);
+export const router = createBrowserRouter(routes, {
+    basename:
+        process.env.NODE_ENV === 'production'
+            ? '/when-can-we-meet-web'
+            : undefined,
+});

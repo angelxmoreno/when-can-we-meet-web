@@ -4,7 +4,6 @@ import React, { FC } from 'react';
 import { Button } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import { SubmitHandler, useForm } from 'react-hook-form';
-import { useNavigate } from 'react-router-dom';
 import * as yup from 'yup';
 
 const validationSchema = yup
@@ -21,7 +20,7 @@ const defaultValues: FormFields = {
 };
 
 const RegisterPage: FC = () => {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     const onSubmit: SubmitHandler<FormFields> = async ({ email, password }) => {
         // const { user, error } = await firebaseAuth.emailRegister({
         //     email,

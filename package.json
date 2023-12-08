@@ -52,7 +52,8 @@
       "universe/web",
       "react-app/jest",
       "plugin:@tanstack/eslint-plugin-query/recommended"
-    ]
+    ],
+    "ignorePatterns": ["build"]
   },
   "prettier": {
     "singleQuote": true,
