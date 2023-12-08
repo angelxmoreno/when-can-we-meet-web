@@ -46,6 +46,7 @@
     "lint:fix": "eslint . --cache --fix",
     "predeploy": "bun run build",
     "deploy": "gh-pages -b pages -d build",
+    "postdeploy": "open https://github.com/angelxmoreno/when-can-we-meet-web/actions",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

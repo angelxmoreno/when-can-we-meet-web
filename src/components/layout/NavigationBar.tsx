@@ -4,20 +4,25 @@ import React, { FC } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
 const NavigationBar: FC = () => {
     const isLoggedIn = UserStore.useState(s => s.isLoggedIn);
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" variant="dark" bg="dark">
             <Container>
-                <Navbar.Brand>React APP</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Brand as={Link} to="/">
+                    React APP
+                </Navbar.Brand>
+                <Navbar.Toggle />
+                <Navbar.Collapse>
                     <Nav className="me-auto">
                         <NavigationLink to="/">Home</NavigationLink>
                         <NavigationLink to="/dashboard">
                             Dashboard
                         </NavigationLink>
+                    </Nav>
+                    <Nav>
                         {!isLoggedIn && (
                             <>
                                 <NavigationLink to="/log-in">
