@@ -2,7 +2,6 @@
   "name": "when-can-we-meet-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://angelxmoreno.github.io/when-can-we-meet-web/",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@craco/craco": "^7.1.0",
@@ -17,6 +16,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "@types/react-helmet": "^6.1.11",
     "axios": "^1.6.2",
     "bootstrap": "^5.3.2",
     "eslint": "^8.55.0",
@@ -28,6 +28,7 @@
     "react-bootstrap": "^2.9.1",
     "react-bootstrap-pagination-control": "^1.0.5",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-hook-form": "^7.48.2",
     "react-icons": "^4.12.0",
     "react-loading-skeleton": "^3.3.1",

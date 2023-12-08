@@ -1,3 +1,4 @@
+import MetaHeader from '@app/components/MetaHeader';
 import TextInput from '@app/components/inputs/TextInput';
 import { yupResolver } from '@hookform/resolvers/yup';
 import React, { FC } from 'react';
@@ -51,7 +52,8 @@ const RegisterPage: FC = () => {
 
     return (
         <div>
-            <h1>RegisterPage</h1>
+            <MetaHeader title="The Register Page" />
+            <h1>Register</h1>
             <Form noValidate onSubmit={handleSubmit(onSubmit)}>
                 <TextInput
                     control={control}

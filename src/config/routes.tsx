@@ -5,7 +5,7 @@ import LogInPage from '@app/pages/LogInPage';
 import RegisterPage from '@app/pages/RegisterPage';
 import { createBrowserRouter, RouteObject } from 'react-router-dom';
 
-const routes: RouteObject[] = [
+export const appRoutes: RouteObject[] = [
     {
         path: '',
         Component: RootLayout,
@@ -38,9 +38,6 @@ const routes: RouteObject[] = [
         ],
     },
 ];
-export const router = createBrowserRouter(routes, {
-    basename:
-        process.env.NODE_ENV === 'production'
-            ? '/when-can-we-meet-web'
-            : undefined,
+export const router = createBrowserRouter(appRoutes, {
+    basename: process.env.REACT_APP_BASENAME,
 });

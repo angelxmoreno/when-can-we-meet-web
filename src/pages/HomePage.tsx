@@ -1,3 +1,4 @@
+import MetaHeader from '@app/components/MetaHeader';
 import React, { FC } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -5,6 +6,7 @@ import { Link } from 'react-router-dom';
 const HomePage: FC = () => {
     return (
         <>
+            <MetaHeader title="Home Page" />
             <h1>Welcome Admins!</h1>
             <p>
                 Welcome to the ShyBye Admin Tool. This tool was create to allow
